@@ -1,0 +1,17 @@
+.Whole-App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; 
+  padding: 20px; 
+  background-color: grey;
+}
+
+.Info-Description {
+  background-color: white;
+  grid-column: 2;
+}
+
+.Simulations {
+  background-color: white;
+  grid-column: 1;
+}
